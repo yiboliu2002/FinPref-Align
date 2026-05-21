@@ -1,0 +1,16 @@
+eval_file: data/processed/eval_finpref.jsonl
+output_dir: /autodl-fs/data/finpref/outputs/eval
+generation:
+  temperature: 0.2
+  top_p: 0.9
+  max_new_tokens: 512
+models:
+  base:
+    model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+  sft:
+    model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+    adapter_path: /autodl-fs/data/finpref/outputs/sft_qwen2_5_3b_finpref/adapter
+  dpo:
+    model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+    adapter_path: /autodl-fs/data/finpref/outputs/dpo_qwen2_5_3b_finpref_beta_0_1/adapter
+

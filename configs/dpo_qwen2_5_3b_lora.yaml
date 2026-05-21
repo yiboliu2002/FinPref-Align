@@ -1,0 +1,23 @@
+model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+sft_adapter_path: /autodl-fs/data/finpref/outputs/sft_qwen2_5_3b_finpref/adapter
+output_dir: /autodl-fs/data/finpref/outputs/dpo_qwen2_5_3b_finpref_beta_0_1
+train_file: data/processed/dpo_train.jsonl
+max_prompt_length: 1024
+max_length: 2048
+num_train_epochs: 1
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 5.0e-7
+warmup_ratio: 0.05
+lr_scheduler_type: cosine
+bf16: true
+gradient_checkpointing: true
+beta: 0.1
+loss_type: sigmoid
+logging_steps: 10
+save_steps: 200
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+

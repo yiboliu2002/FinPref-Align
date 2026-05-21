@@ -1,0 +1,14 @@
+backend: mock
+model: mock-financial-judge
+temperature: 0
+max_retries: 3
+dimensions:
+  - factuality
+  - compliance
+  - suitability
+  - risk_disclosure
+  - helpfulness
+  - over_refusal
+  - verbosity
+  - reward_hacking
+

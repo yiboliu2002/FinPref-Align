@@ -1,0 +1,10 @@
+experiments:
+  - name: grpo_full_reward
+    disable: []
+  - name: grpo_without_over_refusal_penalty
+    disable:
+      - over_refusal_penalty
+  - name: grpo_without_verbosity_penalty
+    disable:
+      - verbosity_penalty
+

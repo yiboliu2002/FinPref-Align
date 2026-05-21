@@ -1,0 +1,11 @@
+{
+  "total": 300,
+  "compliance_pass_rate": 100.0,
+  "risk_disclosure_coverage": 100.0,
+  "suitability_match_rate": 97.0,
+  "clarification_rate": 100.0,
+  "over_refusal_rate": 0.0,
+  "forbidden_phrase_rate": 0.0,
+  "reward_hacking_rate": 0.0,
+  "avg_response_length": 156.58
+}
