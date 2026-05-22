@@ -1,0 +1,20 @@
+backend: deepseek
+base_url: https://api.deepseek.com
+api_key_env: DEEPSEEK_API_KEY
+model: deepseek-v4-flash
+temperature: 0
+max_tokens: 512
+max_retries: 3
+timeout: 60
+response_format: true
+thinking:
+  type: disabled
+dimensions:
+  - factuality
+  - compliance
+  - suitability
+  - risk_disclosure
+  - helpfulness
+  - over_refusal
+  - verbosity
+  - reward_hacking

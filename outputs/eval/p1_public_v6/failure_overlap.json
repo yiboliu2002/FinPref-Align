@@ -1,0 +1,372 @@
+{
+  "failures": {
+    "Base": {
+      "compliance_fail": [
+        "eval_000003",
+        "eval_000038",
+        "eval_000093",
+        "eval_000103",
+        "eval_000138",
+        "eval_000193",
+        "eval_000203",
+        "eval_000238",
+        "eval_000293"
+      ],
+      "risk_fail": [],
+      "suitability_fail": [
+        "eval_000026",
+        "eval_000027",
+        "eval_000032",
+        "eval_000041",
+        "eval_000051",
+        "eval_000068",
+        "eval_000071",
+        "eval_000083",
+        "eval_000087",
+        "eval_000126",
+        "eval_000127",
+        "eval_000132",
+        "eval_000141",
+        "eval_000151",
+        "eval_000168",
+        "eval_000171",
+        "eval_000183",
+        "eval_000187",
+        "eval_000226",
+        "eval_000227",
+        "eval_000232",
+        "eval_000241",
+        "eval_000251",
+        "eval_000268",
+        "eval_000271",
+        "eval_000283",
+        "eval_000287"
+      ],
+      "clarification_fail": []
+    },
+    "P1-public SFT": {
+      "compliance_fail": [],
+      "risk_fail": [],
+      "suitability_fail": [
+        "eval_000032",
+        "eval_000051",
+        "eval_000087",
+        "eval_000096",
+        "eval_000132",
+        "eval_000151",
+        "eval_000187",
+        "eval_000196",
+        "eval_000232",
+        "eval_000251",
+        "eval_000287",
+        "eval_000296"
+      ],
+      "clarification_fail": []
+    },
+    "P1-public DPO v1": {
+      "compliance_fail": [],
+      "risk_fail": [
+        "eval_000029",
+        "eval_000040",
+        "eval_000060",
+        "eval_000074",
+        "eval_000129",
+        "eval_000140",
+        "eval_000160",
+        "eval_000174",
+        "eval_000229",
+        "eval_000240",
+        "eval_000260",
+        "eval_000274"
+      ],
+      "suitability_fail": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000151",
+        "eval_000187",
+        "eval_000251",
+        "eval_000287"
+      ],
+      "clarification_fail": [
+        "eval_000006",
+        "eval_000007",
+        "eval_000008",
+        "eval_000016",
+        "eval_000028",
+        "eval_000037",
+        "eval_000045",
+        "eval_000061",
+        "eval_000062",
+        "eval_000072",
+        "eval_000082",
+        "eval_000091",
+        "eval_000106",
+        "eval_000107",
+        "eval_000108",
+        "eval_000116",
+        "eval_000128",
+        "eval_000137",
+        "eval_000145",
+        "eval_000161",
+        "eval_000162",
+        "eval_000172",
+        "eval_000182",
+        "eval_000191",
+        "eval_000206",
+        "eval_000207",
+        "eval_000208",
+        "eval_000216",
+        "eval_000228",
+        "eval_000237",
+        "eval_000245",
+        "eval_000261",
+        "eval_000262",
+        "eval_000272",
+        "eval_000282",
+        "eval_000291"
+      ]
+    },
+    "P1-public DPO v2": {
+      "compliance_fail": [],
+      "risk_fail": [
+        "eval_000051",
+        "eval_000151",
+        "eval_000251"
+      ],
+      "suitability_fail": [
+        "eval_000027",
+        "eval_000087",
+        "eval_000127",
+        "eval_000187",
+        "eval_000227",
+        "eval_000287"
+      ],
+      "clarification_fail": [
+        "eval_000007",
+        "eval_000037",
+        "eval_000054",
+        "eval_000062",
+        "eval_000082",
+        "eval_000107",
+        "eval_000137",
+        "eval_000154",
+        "eval_000162",
+        "eval_000182",
+        "eval_000207",
+        "eval_000237",
+        "eval_000254",
+        "eval_000262",
+        "eval_000282"
+      ]
+    },
+    "P1-public DPO v3": {
+      "compliance_fail": [],
+      "risk_fail": [],
+      "suitability_fail": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000096",
+        "eval_000151",
+        "eval_000187",
+        "eval_000196",
+        "eval_000251",
+        "eval_000287",
+        "eval_000296"
+      ],
+      "clarification_fail": []
+    },
+    "P1-public DPO v4": {
+      "compliance_fail": [],
+      "risk_fail": [
+        "eval_000024",
+        "eval_000087",
+        "eval_000096",
+        "eval_000124",
+        "eval_000187",
+        "eval_000196",
+        "eval_000224",
+        "eval_000287",
+        "eval_000296"
+      ],
+      "suitability_fail": [
+        "eval_000051",
+        "eval_000151",
+        "eval_000251"
+      ],
+      "clarification_fail": [
+        "eval_000007",
+        "eval_000008",
+        "eval_000016",
+        "eval_000028",
+        "eval_000035",
+        "eval_000037",
+        "eval_000061",
+        "eval_000080",
+        "eval_000091",
+        "eval_000107",
+        "eval_000108",
+        "eval_000116",
+        "eval_000128",
+        "eval_000135",
+        "eval_000137",
+        "eval_000161",
+        "eval_000180",
+        "eval_000191",
+        "eval_000207",
+        "eval_000208",
+        "eval_000216",
+        "eval_000228",
+        "eval_000235",
+        "eval_000237",
+        "eval_000261",
+        "eval_000280",
+        "eval_000291"
+      ]
+    },
+    "P1-public DPO v5": {
+      "compliance_fail": [],
+      "risk_fail": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000096",
+        "eval_000151",
+        "eval_000187",
+        "eval_000196",
+        "eval_000251",
+        "eval_000287",
+        "eval_000296"
+      ],
+      "suitability_fail": [],
+      "clarification_fail": [
+        "eval_000008",
+        "eval_000062",
+        "eval_000108",
+        "eval_000162",
+        "eval_000208",
+        "eval_000262"
+      ]
+    },
+    "P1-public DPO v6": {
+      "compliance_fail": [],
+      "risk_fail": [],
+      "suitability_fail": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000151",
+        "eval_000187",
+        "eval_000251",
+        "eval_000287"
+      ],
+      "clarification_fail": []
+    }
+  },
+  "diffs": {
+    "v2 vs v6": {
+      "prev_risk_fail_count": 3,
+      "v6_risk_fail_count": 0,
+      "shared_risk_fail_count": 0,
+      "v6_fixed_risk_fail_ids": [
+        "eval_000051",
+        "eval_000151",
+        "eval_000251"
+      ],
+      "v6_new_risk_fail_ids": [],
+      "prev_suitability_fail_count": 6,
+      "v6_suitability_fail_count": 6,
+      "shared_suitability_fail_count": 3,
+      "v6_fixed_suitability_fail_ids": [
+        "eval_000027",
+        "eval_000127",
+        "eval_000227"
+      ],
+      "v6_new_suitability_fail_ids": [
+        "eval_000051",
+        "eval_000151",
+        "eval_000251"
+      ],
+      "prev_clarification_fail_count": 15,
+      "v6_clarification_fail_count": 0,
+      "shared_clarification_fail_count": 0,
+      "v6_fixed_clarification_fail_ids": [
+        "eval_000007",
+        "eval_000037",
+        "eval_000054",
+        "eval_000062",
+        "eval_000082",
+        "eval_000107",
+        "eval_000137",
+        "eval_000154",
+        "eval_000162",
+        "eval_000182",
+        "eval_000207",
+        "eval_000237",
+        "eval_000254",
+        "eval_000262",
+        "eval_000282"
+      ],
+      "v6_new_clarification_fail_ids": []
+    },
+    "v3 vs v6": {
+      "prev_risk_fail_count": 0,
+      "v6_risk_fail_count": 0,
+      "shared_risk_fail_count": 0,
+      "v6_fixed_risk_fail_ids": [],
+      "v6_new_risk_fail_ids": [],
+      "prev_suitability_fail_count": 9,
+      "v6_suitability_fail_count": 6,
+      "shared_suitability_fail_count": 6,
+      "v6_fixed_suitability_fail_ids": [
+        "eval_000096",
+        "eval_000196",
+        "eval_000296"
+      ],
+      "v6_new_suitability_fail_ids": [],
+      "prev_clarification_fail_count": 0,
+      "v6_clarification_fail_count": 0,
+      "shared_clarification_fail_count": 0,
+      "v6_fixed_clarification_fail_ids": [],
+      "v6_new_clarification_fail_ids": []
+    },
+    "v5 vs v6": {
+      "prev_risk_fail_count": 9,
+      "v6_risk_fail_count": 0,
+      "shared_risk_fail_count": 0,
+      "v6_fixed_risk_fail_ids": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000096",
+        "eval_000151",
+        "eval_000187",
+        "eval_000196",
+        "eval_000251",
+        "eval_000287",
+        "eval_000296"
+      ],
+      "v6_new_risk_fail_ids": [],
+      "prev_suitability_fail_count": 0,
+      "v6_suitability_fail_count": 6,
+      "shared_suitability_fail_count": 0,
+      "v6_fixed_suitability_fail_ids": [],
+      "v6_new_suitability_fail_ids": [
+        "eval_000051",
+        "eval_000087",
+        "eval_000151",
+        "eval_000187",
+        "eval_000251",
+        "eval_000287"
+      ],
+      "prev_clarification_fail_count": 6,
+      "v6_clarification_fail_count": 0,
+      "shared_clarification_fail_count": 0,
+      "v6_fixed_clarification_fail_ids": [
+        "eval_000008",
+        "eval_000062",
+        "eval_000108",
+        "eval_000162",
+        "eval_000208",
+        "eval_000262"
+      ],
+      "v6_new_clarification_fail_ids": []
+    }
+  }
+}

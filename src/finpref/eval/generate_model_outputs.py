@@ -22,7 +22,7 @@ def mock_outputs(eval_rows: list[dict]) -> list[dict]:
             "product_info": {"risk_level": row.get("meta", {}).get("risk_level", "R3"), "product_type": "fund", "volatility": "medium", "liquidity": "T+1"},
             "meta": row.get("meta", {}),
         }
-        rows.append({"id": row.get("id"), "response": build_answer(base), "meta": row.get("meta", {})})
+        rows.append({"id": row.get("id"), "response": build_answer(base), "meta": row.get("meta", {}), "messages": row.get("messages", [])})
     return rows
 
 
@@ -67,7 +67,7 @@ def model_outputs(
             output_ids = model.generate(**inputs, **generation_kwargs)
         completion_ids = output_ids[0][inputs["input_ids"].shape[-1] :]
         response = tokenizer.decode(completion_ids, skip_special_tokens=True).strip()
-        rows.append({"id": row.get("id"), "response": response, "meta": row.get("meta", {})})
+        rows.append({"id": row.get("id"), "response": response, "meta": row.get("meta", {}), "messages": row.get("messages", [])})
     return rows
 
 

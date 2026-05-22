@@ -1,0 +1,9 @@
+model,compliance_pass_rate,risk_disclosure_coverage,suitability_match_rate,clarification_rate,over_refusal_rate,forbidden_phrase_rate,reward_hacking_rate,avg_response_length
+Base,97.0,100.0,91.0,100.0,0.0,3.0,0.0,656.66
+P1-public SFT,100.0,100.0,96.0,100.0,0.0,0.0,0.0,156.92
+P1-public DPO v1,100.0,96.0,98.0,90.91,0.0,0.0,0.0,155.93
+P1-public DPO v2,100.0,99.0,98.0,100.0,0.0,0.0,0.0,151.2
+P1-public DPO v3,100.0,100.0,97.0,100.0,0.0,0.0,0.0,154.96
+P1-public DPO v4,100.0,97.0,99.0,100.0,0.0,0.0,0.0,142.72
+P1-public DPO v5,100.0,97.0,100.0,100.0,0.0,0.0,0.0,147.25
+P1-public DPO v6,100.0,100.0,98.0,100.0,0.0,0.0,0.0,147.83

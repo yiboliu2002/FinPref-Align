@@ -38,6 +38,8 @@ def training_common_kwargs(config: dict[str, Any]) -> dict[str, Any]:
         "per_device_train_batch_size": config.get("per_device_train_batch_size", 1),
         "gradient_accumulation_steps": config.get("gradient_accumulation_steps", 1),
         "learning_rate": config.get("learning_rate"),
+        "seed": config.get("seed", 42),
+        "data_seed": config.get("data_seed", config.get("seed", 42)),
         "warmup_ratio": config.get("warmup_ratio", 0.0),
         "lr_scheduler_type": config.get("lr_scheduler_type", "cosine"),
         "bf16": bool(config.get("bf16", False)),
@@ -101,4 +103,3 @@ def load_causal_lm(model_name_or_path: str, config: dict[str, Any]):
     if config.get("gradient_checkpointing", False):
         model.config.use_cache = False
     return model
-

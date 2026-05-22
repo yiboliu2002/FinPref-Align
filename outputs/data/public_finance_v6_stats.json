@@ -1,0 +1,53 @@
+{
+  "dataset_name": "FinLang/investopedia-instruction-tuning-dataset",
+  "split": "train",
+  "source_license": "cc-by-nc-4.0",
+  "sample_seed": 20260521,
+  "source_rows_loaded": 20000,
+  "cleaned_cases": 5000,
+  "sft_rows": 5000,
+  "dpo_rows": 5720,
+  "repair_dpo_rows": 720,
+  "cleaning_stats": {
+    "source_seen": 11949,
+    "finance_irrelevant": 6415,
+    "source_artifact_question": 22,
+    "kept": 5000,
+    "low_quality_answer": 499,
+    "direct_instruction_answer": 4,
+    "duplicate_question": 8,
+    "missing_question_or_answer": 1,
+    "query_type_counts": {
+      "numerical_reasoning": 505,
+      "financial_qa": 3799,
+      "suitability": 47,
+      "risk_disclosure": 236,
+      "comparison": 323,
+      "compliance_boundary": 73,
+      "yield_promise": 14,
+      "direct_recommendation": 3
+    },
+    "risk_level_counts": {
+      "R4": 1550,
+      "R3": 2076,
+      "R5": 693,
+      "R2": 651,
+      "R1": 30
+    },
+    "top_source_topics": {
+      "market+news": 2553,
+      "mortgage": 1324,
+      "news": 1123
+    }
+  },
+  "outputs": {
+    "raw_sample": "data/interim/public_finance_raw_sample_v6.jsonl",
+    "sft": "data/processed/public_finance_sft_v6.jsonl",
+    "dpo": "data/processed/public_finance_dpo_v6.jsonl",
+    "stats": "outputs/data/public_finance_v6_stats.json",
+    "combined_sft": "data/processed/sft_train_p1_public_mix_v6.jsonl",
+    "combined_dpo": "data/processed/dpo_train_p1_public_mix_v6.jsonl"
+  },
+  "combined_sft_rows": 8000,
+  "combined_dpo_rows": 8720
+}

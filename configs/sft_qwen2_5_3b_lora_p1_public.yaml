@@ -1,0 +1,29 @@
+model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+output_dir: /autodl-fs/data/finpref/outputs/sft_qwen2_5_3b_finpref_p1_public
+train_file: data/processed/sft_train_p1_public_mix.jsonl
+max_seq_length: 2048
+num_train_epochs: 1
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-5
+warmup_ratio: 0.03
+lr_scheduler_type: cosine
+bf16: true
+gradient_checkpointing: true
+logging_steps: 10
+save_steps: 200
+save_total_limit: 2
+seed: 20260521
+data_seed: 20260521
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
